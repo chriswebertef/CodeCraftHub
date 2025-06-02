@@ -1,0 +1,44 @@
+{
+    "type": "code",
+    "content": {
+        "language": "json",
+        "code": {
+            "name": "user-service",
+            "version": "1.0.0",
+            "description": "User Service for Personalized Online Learning Platform",
+            "main": "index.js",
+            "scripts": {
+                "start": "node index.js",
+                "dev": "nodemon index.js",
+                "test": "jest --runInBand"
+            },
+            "keywords": [
+                "user",
+                "service",
+                "nodejs",
+                "mongodb",
+                "express",
+                "authentication"
+            ],
+            "author": "Your Name",
+            "license": "MIT",
+            "dependencies": {
+                "bcryptjs": "^2.4.3",
+                "dotenv": "^16.0.3",
+                "express": "^4.18.2",
+                "express-validator": "^6.14.3",
+                "jsonwebtoken": "^9.0.0",
+                "mongoose": "^7.0.3"
+            },
+            "devDependencies": {
+                "jest": "^29.5.0",
+                "nodemon": "^2.0.22",
+                "supertest": "^6.3.3"
+            },
+            "jest": {
+                "testEnvironment": "node",
+                "verbose": true
+            }
+        }
+    }
+}
